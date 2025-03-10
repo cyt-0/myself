@@ -30,7 +30,7 @@
         .table-container { display: flex; justify-content: center; align-items: center; margin-top: 20px; }
         table { width: 80%; border-collapse: collapse; margin: auto; }
         table, th, td { border: 1px solid #ddd; }
-        th, td { padding: 10px; text-align: center; }
+        th, td { padding: 10px; text-align: left; }
         th { background-color: #f4f4f4; }
         .password-container { margin-top: 100px; }
     </style>
@@ -44,27 +44,47 @@
 
     <div class="container">
         <h1>關於我</h1>
-        <img src="">
+        <img src="我.jpg">
         <p>👋 哈囉，我是【陳禹彤】！這裡是我的個人網站，歡迎來認識我！</p>
         
         <div class="menu">
             <button onclick="showSection('contact')">自我介紹</button>
-            <button onclick="showSection('experience')">參與活動及經歷</button>
+            <button onclick="showSection('experience')">多元表現及自我學習</button>
             <button onclick="showSection('plan')">讀書計畫</button>
-            <button onclick="showSection('future')">未來期許</button>
+            <button onclick="showSection('future')">反省及期許</button>
         </div>
 
         <div id="experience" class="section">
-            <h2>參與活動及經歷</h2>
-            <p>【自主利用線上課程學習程式-成為Python數據分析達人的第一堂課】</p>
-            <p>【全國高級中學等學校小論文寫作比賽-優等】</p>
-            <p>【自主學習C語言基礎課程並取得證書】</p>
-            <p>【通過英文檢定中級】</p>
+            <h2><font color="#f00">多元表現及自我學習</font></h2>
+            <h2 align="left"><font color="#1936C9">多元表現</font></h2>
+            <p align="left">1.【校內課業】資訊科技排名前1%</p>
+            <p align="left">2.【校內課業】英文排名前12%</p>
+            <p align="left">3.【校內課業】數學排名前15%</p>
+            <p align="left">4.【小論文寫作比賽】:*優等*,題目:臺南市登革熱病媒蚊指數關係探討</p>
+            <p align="left">5.【全民英檢】中級複試通過</p>
+            <p align="left">6.【TOEIC】640分</p>
+            <p align="left">7.【團隊比賽】校運400公尺接力: 冠軍</p>
+            <p align="left">8.【團隊比賽】校運趣味競賽: 季軍</p>
+            <h2 align="left"><font color="#1936C9">資訊類.自主學習</font></h2>
+            <p align="left">1.【成為Python數據分析達人的第一堂課】結業:ewant:蔡炎龍老師; 7小時/16周</p>
+            <p align="left">2.【C語言基礎課程】結業:udemy: OOO老師; 16小時/16周</p>
+            <p align="left">3.【認識資訊科技】結業:ewant: 朱守禮,吳宜鴻老師; 6小時/8周</p>
+            <p align="left">4.【AI素養與思維】結業:ewant: 張志勇老師; 6小時/6周</p>
+            <h2 align="left"><font color="#1936C9">其他</font></h2>
+            <p align="left">1.【幹部及社團】: 擔任班級事務股長2年</p>
+            <p align="left">2.【幹部及社團】: 擔任班級風紀股長1年</p>
+            <p align="left">3.【幹部及社團】: 參加英打社, 手語社, 資訊社</p>
+            <p align="left">4.【台南市古都馬拉松】: 參加5公里健康跑</p>
+            <p align="left">5.【遠哲趣味競賽】:參與</p>
+            <p align="left">6.【飢餓30活動】:參與</p>      
         </div>
 
         <div id="future" class="section">
-            <h2>未來期許</h2>
-            <p>✨ 因為高中是選擇3類組，除了必修的電腦課以外並沒有在學校接觸過資訊課，因此透過線上課程學習了基礎的python、C語言撰寫，但始終沒有很深入去了解，因此希望能在進入資工系後可以徹底學習AI等知識！</p>
+            <h2> <font color="#f00">反省及期許</font></h2>
+            <h2 align="left"><font color="#1936C9">自我省思</font></h2>
+            <p align="left">✨ 因為高中是選擇3類組，除了必修的電腦課以外並沒有在學校接觸過資訊課，因此透過線上課程學習了基礎的python、C語言撰寫，但始終沒有很深入去了解，因此希望能在進入資工系後可以徹底學習AI等知識！</p>
+            <h2 align="left"><font color="#1936C9">未來期許</font></h2>
+            <p align="left">✨ 因為高中是選擇3類組，除了必修的電腦課以外並沒有在學校接觸過資訊課，因此透過線上課程學習了基礎的python、C語言撰寫，但始終沒有很深入去了解，因此希望能在進入資工系後可以徹底學習AI等知識！</p>
         </div>
 
         <div id="contact" class="section">
@@ -84,24 +104,29 @@
                     <th>方法</th>
                 </tr>
                 <tr>
+                    <td>開學前</td>
+                    <td>進一步了解資工系課程及發展</td>
+                    <td>★買台好一點電腦 <br>★先自行學習程式開發基礎 <br>★了解一下AI現況</td>
+                </tr>
+                <tr>
                     <td>大一</td>
-                    <td>了解電腦基本構造及軟體運作方式</td>
-                    <td>上網學習或到圖書館借取相關書籍</td>
+                    <td>了解電腦基本硬體構造及軟體運作方式</td>
+                    <td>★專注課業,包含計算機概論,程式語言等 <br>★多寫程式 <br>★補足人工智慧所需能力</td>
                 </tr>
                 <tr>
                     <td>大二</td>
-                    <td>取得多益金色證書</td>
-                    <td>利用課餘時間背單字等提升英語能力</td>
+                    <td>軟體開發技能加深加廣; 探詢如IC設計需要的能力</td>
+                    <td>★透過系上課程安排,熟悉如網頁設計,手機程式,資料庫等技能<br>★修習IC設計所需要的課程</td>
                 </tr>
                 <tr>
                     <td>大三</td>
-                    <td>嘗試製作專題及參加比賽</td>
-                    <td>多留意比賽時間並多跟教授請教</td>
+                    <td>製作專題及參加比賽</td>
+                    <td>★透過已學習到的知識或能力,在特定專題或比賽上展現<br>★檢視自己不足能力並且加強<br>★培養團隊合作經驗</td>
                 </tr>
                 <tr>
                     <td>大四</td>
-                    <td>準備推甄或考研</td>
-                    <td>報名補習班</td>
+                    <td>決定繼續升學或就業,並努力以赴</td>
+                    <td>★檢視自身能力及興趣,並判斷下階段目標<br>★向學校師長諮詢<br>★爭取校內外資源達到目標</td>
                 </tr>
             </table>
         </div>
